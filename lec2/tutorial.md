@@ -478,4 +478,4 @@ cat flag
 This is my flag
 ```
 
-축하드립니다. 이제 ROP를 이용해서 flag를 읽어보는 payload를 완성한 것입니다!
+축하드립니다. 이제 ROP를 이용해서 flag를 읽어보는 payload를 완성한 것입니다! 이것말고도 pwntools에서는 exploit을 훨씬 단순하게 만들어 주는 좋은 기능을 많이 제공하고 있습니다. 여러분이 충분히 야심차다면 다양한 기능을 테스트해서 보단 간결한 exploit을 작성해보시기 바랍니다.
