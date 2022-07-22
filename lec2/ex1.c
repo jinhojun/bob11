@@ -23,7 +23,6 @@ void read_input() {
 
 int main(int argc, char *argv[])
 {
-  setreuid(geteuid(), geteuid());
   setvbuf(stdout, NULL, _IONBF, 0);
   setvbuf(stdin, NULL, _IONBF, 0);
 
