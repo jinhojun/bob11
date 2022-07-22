@@ -416,19 +416,20 @@ EIP---> func    |          execve()       |
 
 ```sh
 $ ROPgadget --binary ex1 --only "poo|pop|ret"
+
 Gadgets information
 ============================================================
-0x08049483 : pop ebp ; ret
-0x08049480 : pop ebx ; pop esi ; pop edi ; pop ebp ; ret
+0x08049423 : pop ebp ; ret
+0x08049420 : pop ebx ; pop esi ; pop edi ; pop ebp ; ret
 0x08049022 : pop ebx ; ret
-0x08049482 : pop edi ; pop ebp ; ret
-0x08049481 : pop esi ; pop edi ; pop ebp ; ret
+0x08049422 : pop edi ; pop ebp ; ret
+0x08049421 : pop esi ; pop edi ; pop ebp ; ret
 0x0804900e : ret
-0x0804924b : ret 0xe8c1
+0x0804920b : ret 0xe8c1
 0x0804906a : ret 0xffff
 ```
 
-도구를 보니 바이너리의 `0x08049482` 주소가 pop-pop-ret하는 instructions들을 가지고 있군요. 이제 python으로 돌아가서 아래와 같이 payload를 완성합시다.
+도구를 보니 바이너리의 `0x08049422` 주소가 pop-pop-ret하는 instructions들을 가지고 있군요. 이제 python으로 돌아가서 아래와 같이 payload를 완성합시다.
 
 
 
