@@ -11,3 +11,7 @@
 [lecture #2 slide](https://drive.google.com/file/d/1yxwcNAhi7ferzmWZxNvIz8Kv94DRHhzK/view?usp=sharing)
 
 [lecture #2 tutorial](lec2/tutorial.md)
+
+## Lecture3: Exploit Writing (Intermediate)
+
+[lecture #3 slide](https://drive.google.com/file/d/141glPfu6l9H-7kgq5HswYHorTVm64vMQ/view?usp=sharing)
